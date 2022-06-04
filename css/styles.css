@@ -25,6 +25,10 @@ a:hover { text-decoration: none; color:#2d3436; }
 a:focus { text-decoration: none; color:#2d3436; }
 a:active { text-decoration: none; color:#2d3436; }
 
+h1{ 
+	font-family: 'Amiri', serif;
+}
+
 .wrapper {
 	width: 90%;
 	margin: 0 auto
@@ -231,10 +235,92 @@ nav {
 }
 
 .footer_nav ul li {
-    color: #2d3436
+    color: #2d3436;
 	font-size: 1rem;
 	font-weight: 550;
 	letter-spacing: .1rem
+}
+
+.menu{
+    height: 105px;
+    background-color: #2d3436;
+}
+
+.divider {
+    padding-left: 4.125rem;
+    padding-right: 4.125rem;
+    margin-right: auto;
+    margin-left: auto;
+	padding-bottom: 10px;
+}
+
+.line {
+    margin-left: 5.125rem;
+    margin-right: 5.125rem;
+	display: block;
+    clear: both;
+    height: 1px;
+    background-color: #000;
+	margin-bottom: 5vh;
+
+}
+
+.myname{
+    background-color: #ffffff;
+    padding-bottom: 1vh;
+    padding-top: 1.5vh;
+    background-size: cover;
+    height: 100px;
+}
+.myname h1 {
+    margin: inherit;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+	text-align: center;
+}
+.r1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.r1c1 { grid-area: 1 / 1 / 2 / 2; 
+    background-color: #1e3799;
+	padding-top:10%
+}
+.r1c1 h2 {
+        display: block;
+        font-size: 1.2em;
+        margin-block-end: 0em;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+.r1c1 blockquote {
+    margin-block-end: 0em;
+    color: #fff;
+}
+.r1c1 figcaption{
+    position: relative;
+    text-align: right;
+    color: #fff;
+    padding-right:15%;
+    padding-bottom: 5%;
+}
+.r1c2 { grid-area: 1 / 2 / 2 / 3; 
+    padding: 2%;
+    background-color: #007bb6;
+}
+.r1c2 h2 {
+	color: #fff;
+}
+.r1c2 li {
+	color: #fff;
+	font-size: 1.1rem;
+}
+.r1c2 a {
+	color: #fff;
 }
 
 @media screen and (max-width:768px) {
