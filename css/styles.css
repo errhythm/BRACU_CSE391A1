@@ -20,6 +20,11 @@ header {
 	margin: 10px
 }
 
+a{ text-decoration: none; color:#2d3436; }
+a:hover { text-decoration: none; color:#2d3436; }
+a:focus { text-decoration: none; color:#2d3436; }
+a:active { text-decoration: none; color:#2d3436; }
+
 .wrapper {
 	width: 90%;
 	margin: 0 auto
@@ -131,44 +136,6 @@ nav {
 	align-content: center
 }
 
-.arrowdiv:active {
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-	-webkit-animation-timing-function: ease-in-out;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-	animation-name: bounce;
-	-moz-animation-name: bounce
-}
-
-@keyframes bounce {
-
-	0%,
-	100%,
-	20%,
-	50%,
-	80% {
-		-webkit-transform: translateY(0);
-		-ms-transform: translateY(0);
-		transform: translateY(0)
-	}
-
-	40% {
-		-webkit-transform: translateY(-30px);
-		-ms-transform: translateY(-30px);
-		transform: translateY(-30px)
-	}
-
-	60% {
-		-webkit-transform: translateY(-15px);
-		-ms-transform: translateY(-15px);
-		transform: translateY(-15px)
-	}
-}
-
 .down {
 	transition: none 0s ease 0s
 }
@@ -264,6 +231,7 @@ nav {
 }
 
 .footer_nav ul li {
+    color: #2d3436
 	font-size: 1rem;
 	font-weight: 550;
 	letter-spacing: .1rem
