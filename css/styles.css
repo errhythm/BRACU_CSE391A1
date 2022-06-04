@@ -184,11 +184,11 @@ animation-iteration-count: infinite;
 .footer{
     margin: 40px 0;
 }
-.wrapper_4{
+.footwrapper{
     width: 90%;
     margin: 0 auto;
 }
-.footer .wrapper_4{
+.footer .footwrapper{
     display: flex;
     justify-content: space-between;
 }
@@ -196,13 +196,26 @@ animation-iteration-count: infinite;
     margin-top: 20px;
 }
 .icons a{
-    background-color: rgb(71, 76, 72);
-    font-size: 0.8rem;
-    margin: 0 3px;
-    padding: 7px 10px;
-    border-radius: 50%;
-    color: rgb(225,230,224);
+    font-size: 2.2rem;
+    color: #34495e;
 }
+.icons a:hover{
+    transition: all 0.2s ease-in-out
+}
+
+.icons a:hover > .fa-facebook {
+    color:#3b5998;
+}
+.icons a:hover > .fa-twitter {
+    color:#00aced;
+}
+.icons a:hover > .fa-linkedin {
+    color:#007bb6;
+}
+.icons a:hover > .fa-github {
+    color:#000000;
+}
+
 .footer_nav ul{
     list-style: none;
     display: flex;
@@ -254,7 +267,7 @@ animation-iteration-count: infinite;
     input[type=submit]{
         width: 100%;
     }
-    .footer .wrapper_4{
+    .footer .footwrapper{
         text-align: center;
         flex-direction: column;
     }
@@ -269,9 +282,6 @@ animation-iteration-count: infinite;
         line-height: 3rem;
     }
 
-    fa-solid fa-angles-down:hover{
-        color: #3b5998;
-    }
 
     /* ----------------------------------- */
 
