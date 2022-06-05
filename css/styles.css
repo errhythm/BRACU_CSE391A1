@@ -301,7 +301,7 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: 1fr;
-	grid-column-gap: 15px;
+	grid-column-gap: 35px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -316,9 +316,9 @@ nav {
 	display: block;
 	padding: 3.4375rem 0.9375rem 2.8125rem;
 	height: 200px;
-    border-radius: 7rem;
+    border-radius: 5rem;
 	text-align: center;
-	background-color: #778DA9;
+	background-color: #C0C2BA;
 }
 .skill-image img{
 	height: 90px;
