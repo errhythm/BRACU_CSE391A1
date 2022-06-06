@@ -662,90 +662,42 @@ nav{
 	display: block;
 }
 @media screen and (max-width:768px){
-    body{
-        overflow-x:hidden
-    }
-    .header{
-        background-position:center
-    }
-    .profile_container{
-        height:85vh
-    }
-    .profile_container h1{
-        font-size:4rem
-    }
-    .about{
-        grid-template-columns:1fr
-    }
-    .about_text{
-        margin-top:70px;
-        width:90%
-    }
-    .footer .footwrapper{
-        text-align:center;
-        flex-direction:column
-    }
-    .footer_nav{
-        order:1
-    }
-    .icons{
-        order:2
-    }
-    .footer_nav ul{
-        flex-direction:column;
-        line-height:3rem
-    }
-    .hamburger{
-        display:flex;
-        flex-direction:column;
-        justify-content:space-around;
-        position:absolute;
-        z-index:10;
-        right:5%;
-        top:5%;
-        cursor:pointer
-    }
-    .hamburger .bar_1,.hamburger .bar_2{
-        display:inline-block;
-        height:5px;
-        width:30px;
-        background-color:#474c48;
-        margin-bottom:5px;
-        border-radius:5px
-    }
-    .wrapper{
-        position:absolute;
-        flex-direction:column;
-        justify-content:space-around;
-        align-items:center;
-        background-color:#474c48;
-        height:100vh;
-        width:100%;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        clip-path:circle(100px at 90% -17%);
-        -webkit-clip-path:circle(100px at 90% -17%);
-        transition:all 1s ease-out
-    }
-    .wrapper.open{
-        clip-path:circle(1000px at 90% -17%);
-        -webkit-clip-path:circle(1000px at 90% -17%)
-    }
-    .logo{
-        color:#e1e6e0;
-        height:10vh;
-        font-size:1.75rem;
-        margin-left:35px
-    }
-    .navbar ul li a{
-        color:#e1e6e0
-    }
-    .navbar ul{
-        flex-direction:column;
-        justify-content:space-around;
-        align-items:center;
-        height:70vh
-    }
+	/* Make it responsive */
+	.profile_container{
+		grid-template-columns: 1fr;
+		height: auto;
+		width: 100%;
+	}
+	.dp{
+		justify-self: center;
+	}
+	.name{
+		justify-self: center;
+		text-align:center
+	}
+	.about{
+		grid-template-columns: 1fr;
+	}
+	.about_img img{
+		height: fit-content;
+		width: 85%;
+	}
+	.about_text {
+		margin-top: 0;
+		margin-bottom: 0;
+		width: 90%;
+	}
+	.icons{
+		padding-right: 56px;
+	}
+	.myname{
+		height: fit-content;
+	}
+	.sectiontitle h1{
+		font-size: 3rem;
+	}
+	.skills{
+		grid-template-columns: 1fr;
+		height: auto;
+	}
 }
