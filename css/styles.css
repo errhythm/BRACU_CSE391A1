@@ -662,7 +662,6 @@ nav{
 	display: block;
 }
 @media screen and (max-width:768px){
-	/* Make it responsive */
 	.profile_container{
 		grid-template-columns: 1fr;
 		height: auto;
