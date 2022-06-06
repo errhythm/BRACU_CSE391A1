@@ -13,30 +13,25 @@
    <div class="header">
       <nav class="wrapper">
          <div class="logo">
-            <h1>ERR</h1>
+            <a href="/"><h1>ERR</h1></a>
          </div>
          <div class="navbar">
             <ul>
                <li><a href="about.html">About</a></li>
-               <li><a href="#">Portfolio</a></li>
-               <li class="last_child"><a href="#">Contact</a></li>
+               <li><a href="contact.html">Contact</a></li>
             </ul>
          </div>
       </nav>
-      <div class="hamburger">
-         <span class="bar_1"></span>
-         <span class="bar_2"></span>
-      </div>
       <div class="profile_container">
-        <div class="dp">
-        </div>
-        <div class="name">
+         <div class="dp">
+         </div>
+         <div class="name">
             <p>I am</p>
             <h1>EHSANUR RAHMAN RHYTHM</h1>
-        </div>
+         </div>
       </div>
       <div class="arrowdiv">
-        <a href="#about"><i class="fa fa-angle-double-down fa-bounce"></i></a>
+         <a href="#about"><i class="fa fa-angle-double-down fa-bounce"></i></a>
       </div>
    </div>
    <div class="about" id="about">
@@ -54,21 +49,19 @@
    <footer class="footer">
       <div class="footwrapper">
          <div class="icons">
-            <a href="https://www.facebook.com/e.r.rhythm"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://twitter.com/errhythm"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/errhythm/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/errhythm"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/e.r.rhythm" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/errhythm" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/errhythm/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/errhythm" target="_blank"><i class="fa-brands fa-github"></i></a>
          </div>
          <div class="footer_nav">
-            <ul>
-               <li><a href="about.html">ABOUT</a></li>
-               <li>PORTFOLIO</li>
-               <li>CONTACT</li>
-            </ul>
+            <script>
+               var date = document.lastModified;
+               document.getElementById("footerinfo").innerHTML = document.write("Last Modified: " + date +". " + "Page path is: " + window.location.pathname);
+            </script>
          </div>
       </div>
    </footer>
-   <script src="js/custom.js"></script>
-   <script src="https://kit.fontawesome.com/692c2638c1.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/692c2638c1.js" crossorigin="anonymous"></script>
 </body>
 </html>
