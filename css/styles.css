@@ -538,8 +538,9 @@ nav{
 }
 .links{
     display:grid;
-    grid-template-columns:repeat(6,1fr);
+    grid-template-columns:repeat(4,1fr);
     grid-template-rows:1fr;
+	grid-row-gap: 3em;
     grid-column-gap:35px;
     margin-left:5%;
     margin-right:5%
@@ -698,5 +699,8 @@ nav{
 	.skills{
 		grid-template-columns: 1fr;
 		height: auto;
+	}
+	.links{
+		grid-template-columns: repeat(1,1fr);
 	}
 }
