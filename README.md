@@ -11,6 +11,7 @@
 | Assignment 1 | [Click Here](https://github.com/errhythm/CSE391A1) |
 | Assignment 2 | [Click Here](https://github.com/errhythm/CSE391A2) |
 | Assignment 3 | [Click Here](https://github.com/errhythm/CSE391A3) |
-| Assignment 4 | [Click Here](https://github.com/errhythm/CSE391A4) |
-| Project | [Click Here](https://github.com/errhythm/CSE391Project) |
+| Assignment 4 | |
+| Project |  |
+
 
